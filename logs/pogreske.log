@@ -1,0 +1,1045 @@
+2025-11-13 10:46:25,583 INFO [main] app.Main [Main.java:68] Program pokrenut!
+2025-11-13 12:01:27,110 INFO [main] app.Main [Main.java:70] Program pokrenut!
+2025-11-13 12:01:31,639 TRACE [main] app.Main [Main.java:93] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:01:31,642 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 12:01:31,645 INFO [main] app.Main [Main.java:153] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 12:01:31,645 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 12:01:31,645 INFO [main] app.Main [Main.java:153] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 12:01:31,645 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 12:01:31,646 INFO [main] app.Main [Main.java:153] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 12:01:31,646 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Petar Glumac
+2025-11-13 12:01:31,646 INFO [main] app.Main [Main.java:153] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 12:01:31,646 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Ante Bozic
+2025-11-13 12:01:31,646 INFO [main] app.Main [Main.java:153] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 12:01:31,658 INFO [main] app.Main [Main.java:158] Dodani klub: KK Medimurje, sport: Kosarka
+2025-11-13 12:01:31,658 TRACE [main] app.Main [Main.java:93] Unos kluba pocinje: KK Zadar
+2025-11-13 12:01:31,658 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Petar Maric
+2025-11-13 12:01:31,659 INFO [main] app.Main [Main.java:153] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 12:01:31,659 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Mate Basic
+2025-11-13 12:01:31,659 INFO [main] app.Main [Main.java:153] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 12:01:31,659 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Karlo Erceg
+2025-11-13 12:01:31,659 INFO [main] app.Main [Main.java:153] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 12:01:31,659 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Nikola Simek
+2025-11-13 12:01:31,659 INFO [main] app.Main [Main.java:153] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 12:01:31,659 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Luka Vukovic
+2025-11-13 12:01:31,660 INFO [main] app.Main [Main.java:153] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 12:01:31,660 INFO [main] app.Main [Main.java:158] Dodani klub: KK Zadar, sport: Kosarka
+2025-11-13 12:01:31,660 TRACE [main] app.Main [Main.java:93] Unos kluba pocinje: NK Dinamo
+2025-11-13 12:01:31,660 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Josip Sutalo
+2025-11-13 12:01:31,660 INFO [main] app.Main [Main.java:153] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 12:01:31,660 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Martin Baturina
+2025-11-13 12:01:31,660 INFO [main] app.Main [Main.java:153] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 12:01:31,661 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 12:01:31,661 INFO [main] app.Main [Main.java:153] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 12:01:31,661 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 12:01:31,661 INFO [main] app.Main [Main.java:153] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 12:01:31,661 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 12:01:31,661 INFO [main] app.Main [Main.java:153] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 12:01:31,661 INFO [main] app.Main [Main.java:158] Dodani klub: NK Dinamo, sport: Nogomet
+2025-11-13 12:01:31,661 TRACE [main] app.Main [Main.java:93] Unos kluba pocinje: NK Hajduk
+2025-11-13 12:01:31,662 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Marko Livaja
+2025-11-13 12:01:31,662 INFO [main] app.Main [Main.java:153] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 12:01:31,662 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 12:01:31,662 INFO [main] app.Main [Main.java:153] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 12:01:31,663 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Jan Mlakar
+2025-11-13 12:01:31,663 INFO [main] app.Main [Main.java:153] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 12:01:31,663 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Emir Sahiti
+2025-11-13 12:01:31,663 INFO [main] app.Main [Main.java:153] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 12:01:31,663 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Tino Blaz
+2025-11-13 12:01:31,663 INFO [main] app.Main [Main.java:153] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 12:01:31,663 INFO [main] app.Main [Main.java:158] Dodani klub: NK Hajduk, sport: Nogomet
+2025-11-13 12:01:31,663 TRACE [main] app.Main [Main.java:93] Unos kluba pocinje: RK Cakovec
+2025-11-13 12:01:31,664 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Mario Horvat
+2025-11-13 12:01:31,664 INFO [main] app.Main [Main.java:153] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 12:01:31,664 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Petar Novosel
+2025-11-13 12:01:31,664 INFO [main] app.Main [Main.java:153] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 12:01:31,664 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 12:01:31,664 INFO [main] app.Main [Main.java:153] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 12:01:31,664 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Dario Jankovic
+2025-11-13 12:01:31,664 INFO [main] app.Main [Main.java:153] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 12:01:31,664 TRACE [main] app.Main [Main.java:132] Unos igraca pocinje: Luka Kralj
+2025-11-13 12:01:32,590 INFO [main] app.Main [Main.java:153] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 12:01:32,591 INFO [main] app.Main [Main.java:158] Dodani klub: RK Cakovec, sport: Rukomet
+2025-11-13 12:01:37,711 WARN [main] app.Main [Main.java:183] Korisnik nije pravilno odabrao opciju menia!
+2025-11-13 12:01:47,411 DEBUG [main] app.Main [Main.java:191] Pretraga kluba po imenu: KK Bedekovcina
+2025-11-13 12:01:47,412 WARN [main] app.Main [Main.java:203] Klub nije pronaden: KK Bedekovcina
+2025-11-13 12:01:53,146 DEBUG [main] app.Main [Main.java:191] Pretraga kluba po imenu: KK Medimurje
+2025-11-13 12:01:53,146 INFO [main] app.Main [Main.java:196] Klub pronaden: KK Medimurje
+2025-11-13 12:01:58,382 DEBUG [main] app.Main [Main.java:211] Pretraga igraca po imenu: Feri ne seri
+2025-11-13 12:01:58,383 WARN [main] app.Main [Main.java:226] Igrac nije pronaden: Feri ne seri
+2025-11-13 12:02:05,641 DEBUG [main] app.Main [Main.java:211] Pretraga igraca po imenu: Franjo Kranjcec
+2025-11-13 12:02:05,642 INFO [main] app.Main [Main.java:218] Igrac pronaden: Franjo Kranjcec
+2025-11-13 12:02:56,109 INFO [main] app.Main [Main.java:501] Program zavrsio!
+2025-11-13 12:07:58,726 INFO [main] app.Main [Main.java:70] Program pokrenut!
+2025-11-13 12:08:03,851 TRACE [main] app.Main [Main.java:95] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:08:03,854 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 12:08:03,855 INFO [main] app.Main [Main.java:155] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 12:08:03,855 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 12:08:03,856 INFO [main] app.Main [Main.java:155] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 12:08:03,856 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 12:08:03,856 INFO [main] app.Main [Main.java:155] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 12:08:03,856 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Petar Glumac
+2025-11-13 12:08:03,856 INFO [main] app.Main [Main.java:155] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 12:08:03,856 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Ante Bozic
+2025-11-13 12:08:03,856 INFO [main] app.Main [Main.java:155] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 12:08:03,857 INFO [main] app.Main [Main.java:160] Dodani klub: KK Medimurje, sport: Kosarka
+2025-11-13 12:08:03,857 TRACE [main] app.Main [Main.java:95] Unos kluba pocinje: KK Zadar
+2025-11-13 12:08:03,857 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Petar Maric
+2025-11-13 12:08:03,857 INFO [main] app.Main [Main.java:155] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 12:08:03,858 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Mate Basic
+2025-11-13 12:08:03,858 INFO [main] app.Main [Main.java:155] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 12:08:03,858 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Karlo Erceg
+2025-11-13 12:08:03,858 INFO [main] app.Main [Main.java:155] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 12:08:03,858 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Nikola Simek
+2025-11-13 12:08:03,858 INFO [main] app.Main [Main.java:155] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 12:08:03,858 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Luka Vukovic
+2025-11-13 12:08:03,859 INFO [main] app.Main [Main.java:155] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 12:08:03,859 INFO [main] app.Main [Main.java:160] Dodani klub: KK Zadar, sport: Kosarka
+2025-11-13 12:08:03,859 TRACE [main] app.Main [Main.java:95] Unos kluba pocinje: NK Dinamo
+2025-11-13 12:08:03,859 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Josip Sutalo
+2025-11-13 12:08:03,859 INFO [main] app.Main [Main.java:155] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 12:08:03,859 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Martin Baturina
+2025-11-13 12:08:03,859 INFO [main] app.Main [Main.java:155] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 12:08:03,860 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 12:08:03,860 INFO [main] app.Main [Main.java:155] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 12:08:03,860 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 12:08:03,860 INFO [main] app.Main [Main.java:155] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 12:08:03,860 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 12:08:03,860 INFO [main] app.Main [Main.java:155] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 12:08:03,860 INFO [main] app.Main [Main.java:160] Dodani klub: NK Dinamo, sport: Nogomet
+2025-11-13 12:08:03,860 TRACE [main] app.Main [Main.java:95] Unos kluba pocinje: NK Hajduk
+2025-11-13 12:08:03,861 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Marko Livaja
+2025-11-13 12:08:03,861 INFO [main] app.Main [Main.java:155] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 12:08:03,861 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 12:08:03,861 INFO [main] app.Main [Main.java:155] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 12:08:03,861 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Jan Mlakar
+2025-11-13 12:08:03,861 INFO [main] app.Main [Main.java:155] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 12:08:03,861 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Emir Sahiti
+2025-11-13 12:08:03,862 INFO [main] app.Main [Main.java:155] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 12:08:03,862 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Tino Blaz
+2025-11-13 12:08:03,862 INFO [main] app.Main [Main.java:155] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 12:08:03,862 INFO [main] app.Main [Main.java:160] Dodani klub: NK Hajduk, sport: Nogomet
+2025-11-13 12:08:03,862 TRACE [main] app.Main [Main.java:95] Unos kluba pocinje: RK Cakovec
+2025-11-13 12:08:03,862 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Mario Horvat
+2025-11-13 12:08:03,862 INFO [main] app.Main [Main.java:155] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 12:08:03,862 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Petar Novosel
+2025-11-13 12:08:03,863 INFO [main] app.Main [Main.java:155] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 12:08:03,863 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 12:08:03,863 INFO [main] app.Main [Main.java:155] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 12:08:03,863 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Dario Jankovic
+2025-11-13 12:08:03,863 INFO [main] app.Main [Main.java:155] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 12:08:03,863 TRACE [main] app.Main [Main.java:134] Unos igraca pocinje: Luka Kralj
+2025-11-13 12:08:04,547 INFO [main] app.Main [Main.java:155] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 12:08:04,547 INFO [main] app.Main [Main.java:160] Dodani klub: RK Cakovec, sport: Rukomet
+2025-11-13 12:18:16,983 INFO [main] app.Main [Main.java:70] Program pokrenut!
+2025-11-13 12:18:20,969 TRACE [main] app.Main [Main.java:96] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:18:20,971 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 12:18:20,973 INFO [main] app.Main [Main.java:156] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 12:18:20,974 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 12:18:20,974 INFO [main] app.Main [Main.java:156] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 12:18:20,974 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 12:18:20,974 INFO [main] app.Main [Main.java:156] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 12:18:20,974 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Petar Glumac
+2025-11-13 12:18:20,974 INFO [main] app.Main [Main.java:156] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 12:18:20,974 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Ante Bozic
+2025-11-13 12:18:20,975 INFO [main] app.Main [Main.java:156] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 12:18:20,975 INFO [main] app.Main [Main.java:161] Dodani klub: KK Medimurje, sport: Kosarka
+2025-11-13 12:18:20,975 TRACE [main] app.Main [Main.java:96] Unos kluba pocinje: KK Zadar
+2025-11-13 12:18:20,976 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Petar Maric
+2025-11-13 12:18:20,976 INFO [main] app.Main [Main.java:156] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 12:18:20,976 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Mate Basic
+2025-11-13 12:18:20,976 INFO [main] app.Main [Main.java:156] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 12:18:20,976 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Karlo Erceg
+2025-11-13 12:18:20,977 INFO [main] app.Main [Main.java:156] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 12:18:20,977 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Nikola Simek
+2025-11-13 12:18:20,977 INFO [main] app.Main [Main.java:156] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 12:18:20,977 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Luka Vukovic
+2025-11-13 12:18:20,977 INFO [main] app.Main [Main.java:156] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 12:18:20,977 INFO [main] app.Main [Main.java:161] Dodani klub: KK Zadar, sport: Kosarka
+2025-11-13 12:18:20,977 TRACE [main] app.Main [Main.java:96] Unos kluba pocinje: NK Dinamo
+2025-11-13 12:18:20,978 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Josip Sutalo
+2025-11-13 12:18:20,978 INFO [main] app.Main [Main.java:156] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 12:18:20,978 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Martin Baturina
+2025-11-13 12:18:20,978 INFO [main] app.Main [Main.java:156] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 12:18:20,978 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 12:18:20,978 INFO [main] app.Main [Main.java:156] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 12:18:20,978 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 12:18:20,979 INFO [main] app.Main [Main.java:156] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 12:18:20,979 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 12:18:20,979 INFO [main] app.Main [Main.java:156] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 12:18:20,979 INFO [main] app.Main [Main.java:161] Dodani klub: NK Dinamo, sport: Nogomet
+2025-11-13 12:18:20,979 TRACE [main] app.Main [Main.java:96] Unos kluba pocinje: NK Hajduk
+2025-11-13 12:18:20,979 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Marko Livaja
+2025-11-13 12:18:20,979 INFO [main] app.Main [Main.java:156] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 12:18:20,980 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 12:18:20,980 INFO [main] app.Main [Main.java:156] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 12:18:20,980 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Jan Mlakar
+2025-11-13 12:18:20,980 INFO [main] app.Main [Main.java:156] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 12:18:20,980 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Emir Sahiti
+2025-11-13 12:18:20,980 INFO [main] app.Main [Main.java:156] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 12:18:20,980 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Tino Blaz
+2025-11-13 12:18:20,980 INFO [main] app.Main [Main.java:156] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 12:18:20,980 INFO [main] app.Main [Main.java:161] Dodani klub: NK Hajduk, sport: Nogomet
+2025-11-13 12:18:20,980 TRACE [main] app.Main [Main.java:96] Unos kluba pocinje: RK Cakovec
+2025-11-13 12:18:20,981 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Mario Horvat
+2025-11-13 12:18:20,981 INFO [main] app.Main [Main.java:156] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 12:18:20,981 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Petar Novosel
+2025-11-13 12:18:20,981 INFO [main] app.Main [Main.java:156] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 12:18:20,981 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 12:18:20,981 INFO [main] app.Main [Main.java:156] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 12:18:20,981 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Dario Jankovic
+2025-11-13 12:18:20,981 INFO [main] app.Main [Main.java:156] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 12:18:20,982 TRACE [main] app.Main [Main.java:135] Unos igraca pocinje: Luka Kralj
+2025-11-13 12:18:22,092 INFO [main] app.Main [Main.java:156] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 12:18:22,092 INFO [main] app.Main [Main.java:161] Dodani klub: RK Cakovec, sport: Rukomet
+2025-11-13 12:19:32,362 INFO [main] app.Main [Main.java:398] Dodavanje free agenta: LeBron James
+2025-11-13 12:19:32,362 INFO [main] app.Main [Main.java:398] Dodavanje free agenta: Stephen Curry
+2025-11-13 12:19:32,363 INFO [main] app.Main [Main.java:398] Dodavanje free agenta: Nikola Jokic
+2025-11-13 12:19:32,364 INFO [main] app.Main [Main.java:398] Dodavanje free agenta: Luka Doncic
+2025-11-13 12:19:32,364 INFO [main] app.Main [Main.java:398] Dodavanje free agenta: Giannis Antetokounmpo
+2025-11-13 12:19:37,718 WARN [main] app.Main [Main.java:186] Korisnik nije pravilno odabrao opciju menia!
+2025-11-13 12:19:47,980 WARN [main] app.Main [Main.java:186] Korisnik nije pravilno odabrao opciju menia!
+2025-11-13 12:19:53,681 INFO [main] app.Main [Main.java:410] Dodavanje free agenta: Gregg Popovich
+2025-11-13 12:19:53,681 INFO [main] app.Main [Main.java:410] Dodavanje free agenta: Steve Kerr
+2025-11-13 12:19:53,681 INFO [main] app.Main [Main.java:410] Dodavanje free agenta: Erik Spoelstra
+2025-11-13 12:19:53,682 INFO [main] app.Main [Main.java:410] Dodavanje free agenta: Doc Rivers
+2025-11-13 12:19:53,682 INFO [main] app.Main [Main.java:410] Dodavanje free agenta: Mike Malone
+2025-11-13 12:20:11,972 INFO [main] app.Main [Main.java:503] Program zavrsio!
+2025-11-13 12:24:24,617 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 12:24:31,305 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:24:34,062 WARN [main] app.Main [Main.java:120] Korisnik nije unio broj, a trebao je!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2297)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2251)
+	at app.Main.main(Main.java:102)
+2025-11-13 12:27:49,114 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 12:27:58,189 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:28:00,853 WARN [main] app.Main [Main.java:120] Korisnik nije unio broj, a trebao je!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2297)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2251)
+	at app.Main.main(Main.java:102)
+2025-11-13 12:28:05,339 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:28:17,168 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: asd asd
+2025-11-13 12:28:18,836 INFO [main] app.Main [Main.java:160] Dodan igrac: asd asd u klub: KK Medimurje
+2025-11-13 12:28:20,507 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: asdf asf
+2025-11-13 12:28:22,019 INFO [main] app.Main [Main.java:160] Dodan igrac: asdf asf u klub: KK Medimurje
+2025-11-13 12:28:24,675 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: ad da
+2025-11-13 12:28:26,152 INFO [main] app.Main [Main.java:160] Dodan igrac: ad da u klub: KK Medimurje
+2025-11-13 12:28:28,207 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: asf asf
+2025-11-13 12:28:29,660 INFO [main] app.Main [Main.java:160] Dodan igrac: asf asf u klub: KK Medimurje
+2025-11-13 12:28:31,260 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: af asf
+2025-11-13 12:28:32,780 INFO [main] app.Main [Main.java:160] Dodan igrac: af asf u klub: KK Medimurje
+2025-11-13 12:28:32,781 INFO [main] app.Main [Main.java:165] Dodani klub: KK Medimurje, sport: kosarka
+2025-11-13 12:28:33,633 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: asf
+2025-11-13 12:28:44,900 WARN [main] app.Main [Main.java:120] Korisnik nije unio broj, a trebao je!
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:977)
+	at java.base/java.util.Scanner.next(Scanner.java:1632)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2297)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2251)
+	at app.Main.main(Main.java:102)
+2025-11-13 12:28:54,440 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: KK Dakovo
+2025-11-13 12:29:00,273 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 12:29:03,723 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:29:03,725 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 12:29:03,727 INFO [main] app.Main [Main.java:160] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 12:29:03,727 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 12:29:03,727 INFO [main] app.Main [Main.java:160] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 12:29:03,728 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 12:29:03,728 INFO [main] app.Main [Main.java:160] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 12:29:03,728 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Petar Glumac
+2025-11-13 12:29:03,728 INFO [main] app.Main [Main.java:160] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 12:29:03,728 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Ante Bozic
+2025-11-13 12:29:03,729 INFO [main] app.Main [Main.java:160] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 12:29:03,729 INFO [main] app.Main [Main.java:165] Dodani klub: KK Medimurje, sport: Kosarka
+2025-11-13 12:29:03,729 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: KK Zadar
+2025-11-13 12:29:03,730 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Petar Maric
+2025-11-13 12:29:03,730 INFO [main] app.Main [Main.java:160] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 12:29:03,730 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Mate Basic
+2025-11-13 12:29:03,730 INFO [main] app.Main [Main.java:160] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 12:29:03,730 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Karlo Erceg
+2025-11-13 12:29:03,730 INFO [main] app.Main [Main.java:160] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 12:29:03,730 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Nikola Simek
+2025-11-13 12:29:03,730 INFO [main] app.Main [Main.java:160] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 12:29:03,731 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Luka Vukovic
+2025-11-13 12:29:03,731 INFO [main] app.Main [Main.java:160] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 12:29:03,731 INFO [main] app.Main [Main.java:165] Dodani klub: KK Zadar, sport: Kosarka
+2025-11-13 12:29:03,731 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: NK Dinamo
+2025-11-13 12:29:03,731 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Josip Sutalo
+2025-11-13 12:29:03,731 INFO [main] app.Main [Main.java:160] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 12:29:03,731 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Martin Baturina
+2025-11-13 12:29:03,731 INFO [main] app.Main [Main.java:160] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 12:29:03,732 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 12:29:03,732 INFO [main] app.Main [Main.java:160] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 12:29:03,732 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 12:29:03,732 INFO [main] app.Main [Main.java:160] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 12:29:03,732 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 12:29:03,732 INFO [main] app.Main [Main.java:160] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 12:29:03,732 INFO [main] app.Main [Main.java:165] Dodani klub: NK Dinamo, sport: Nogomet
+2025-11-13 12:29:03,732 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: NK Hajduk
+2025-11-13 12:29:03,733 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Marko Livaja
+2025-11-13 12:29:03,733 INFO [main] app.Main [Main.java:160] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 12:29:03,733 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 12:29:03,733 INFO [main] app.Main [Main.java:160] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 12:29:03,733 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Jan Mlakar
+2025-11-13 12:29:03,733 INFO [main] app.Main [Main.java:160] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 12:29:03,733 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Emir Sahiti
+2025-11-13 12:29:03,733 INFO [main] app.Main [Main.java:160] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 12:29:03,734 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Tino Blaz
+2025-11-13 12:29:03,734 INFO [main] app.Main [Main.java:160] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 12:29:03,734 INFO [main] app.Main [Main.java:165] Dodani klub: NK Hajduk, sport: Nogomet
+2025-11-13 12:29:03,734 TRACE [main] app.Main [Main.java:99] Unos kluba pocinje: RK Cakovec
+2025-11-13 12:29:03,734 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Mario Horvat
+2025-11-13 12:29:03,734 INFO [main] app.Main [Main.java:160] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 12:29:03,734 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Petar Novosel
+2025-11-13 12:29:03,735 INFO [main] app.Main [Main.java:160] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 12:29:03,735 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 12:29:03,735 INFO [main] app.Main [Main.java:160] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 12:29:03,735 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Dario Jankovic
+2025-11-13 12:29:03,735 INFO [main] app.Main [Main.java:160] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 12:29:03,735 TRACE [main] app.Main [Main.java:139] Unos igraca pocinje: Luka Kralj
+2025-11-13 12:29:05,105 INFO [main] app.Main [Main.java:160] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 12:29:05,105 INFO [main] app.Main [Main.java:165] Dodani klub: RK Cakovec, sport: Rukomet
+2025-11-13 12:30:31,773 INFO [main] app.Main [Main.java:507] Program zavrsio!
+2025-11-13 12:45:36,494 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 12:45:39,497 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 12:45:39,509 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 12:45:39,511 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 12:45:39,511 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 12:45:39,511 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 12:45:39,511 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 12:45:39,511 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 12:45:39,511 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 12:45:39,512 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 12:45:39,512 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 12:45:39,512 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 12:45:39,523 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 12:45:39,524 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 12:45:39,524 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 12:45:39,524 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 12:45:39,525 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 12:45:39,525 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 12:45:39,525 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 12:45:39,525 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 12:45:39,525 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 12:45:39,525 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 12:45:39,525 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 12:45:39,525 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 12:45:39,525 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 12:45:39,526 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 12:45:39,526 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 12:45:39,526 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 12:45:39,526 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 12:45:39,526 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 12:45:39,526 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 12:45:39,527 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 12:45:39,527 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 12:45:39,527 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 12:45:39,527 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 12:45:39,527 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 12:45:39,527 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 12:45:39,527 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 12:45:39,527 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 12:45:39,528 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 12:45:39,528 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 12:45:39,528 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 12:45:39,528 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 12:45:39,528 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 12:45:39,528 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 12:45:39,528 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 12:45:39,528 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 12:45:39,528 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 12:45:39,529 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 12:45:39,529 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 12:45:39,529 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 12:45:39,529 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 12:45:39,529 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 12:45:39,530 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 12:45:39,530 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 12:45:39,530 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 12:45:39,530 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 12:45:39,530 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 12:45:39,530 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 12:45:40,637 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 12:45:40,637 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:03:33,222 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:03:36,800 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:03:36,803 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:03:36,804 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:03:36,805 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:03:36,805 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:03:36,805 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:03:36,805 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:03:36,805 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:03:36,805 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:03:36,806 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:03:36,806 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:03:36,806 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:03:36,806 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:03:36,806 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:03:36,807 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:03:36,807 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:03:36,807 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:03:36,807 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:03:36,807 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:03:36,807 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:03:36,807 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:03:36,807 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:03:36,808 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:03:36,808 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:03:36,808 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:03:36,808 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:03:36,808 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:03:36,808 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:03:36,808 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:03:36,809 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:03:36,809 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:03:36,809 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:03:36,809 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:03:36,809 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:03:36,809 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:03:36,809 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:03:36,809 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:03:36,810 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:03:36,810 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:03:36,810 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:03:36,810 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:03:36,810 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:03:36,810 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:03:36,811 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:03:36,811 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:03:36,811 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:03:36,811 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:03:36,811 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:03:36,811 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:03:36,811 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:03:36,813 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:03:36,813 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:03:36,813 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:03:36,813 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:03:36,813 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:03:36,813 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:03:36,813 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:03:36,813 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:03:37,559 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:03:37,559 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:06:34,457 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:06:39,064 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:06:39,067 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:06:39,069 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:06:39,070 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:06:39,070 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:06:39,070 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:06:39,070 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:06:39,071 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:06:39,071 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:06:39,071 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:06:39,071 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:06:39,083 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:06:39,083 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:06:39,084 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:06:39,084 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:06:39,084 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:06:39,084 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:06:39,084 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:06:39,084 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:06:39,085 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:06:39,085 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:06:39,085 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:06:39,085 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:06:39,085 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:06:39,085 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:06:39,085 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:06:39,086 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:06:39,086 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:06:39,086 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:06:39,086 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:06:39,086 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:06:39,086 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:06:39,086 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:06:39,086 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:06:39,087 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:06:39,087 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:06:39,087 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:06:39,087 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:06:39,087 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:06:39,087 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:06:39,087 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:06:39,087 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:06:39,088 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:06:39,088 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:06:39,088 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:06:39,088 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:06:39,088 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:06:39,088 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:06:39,088 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:06:39,088 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:06:39,089 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:06:39,089 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:06:39,089 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:06:39,089 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:06:39,089 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:06:39,089 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:06:39,089 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:06:39,090 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:06:39,864 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:06:39,865 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:07:28,153 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:07:29,247 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:07:29,251 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:07:29,252 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:07:29,253 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:07:29,253 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:07:29,253 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:07:29,253 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:07:29,253 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:07:29,253 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:07:29,254 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:07:29,254 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:07:29,266 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:07:29,266 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:07:29,266 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:07:29,267 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:07:29,267 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:07:29,267 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:07:29,267 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:07:29,267 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:07:29,267 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:07:29,267 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:07:29,267 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:07:29,268 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:07:29,268 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:07:29,268 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:07:29,268 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:07:29,268 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:07:29,268 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:07:29,268 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:07:29,269 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:07:29,269 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:07:29,269 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:07:29,269 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:07:29,269 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:07:29,269 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:07:29,269 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:07:29,269 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:07:29,270 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:07:29,270 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:07:29,270 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:07:29,270 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:07:29,270 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:07:29,270 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:07:29,270 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:07:29,270 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:07:29,271 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:07:29,271 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:07:29,271 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:07:29,271 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:07:29,271 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:07:29,271 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:07:29,271 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:07:29,271 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:07:29,272 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:07:29,272 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:07:29,272 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:07:29,272 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:07:29,272 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:07:30,159 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:07:30,160 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:08:16,898 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:08:19,753 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:08:19,756 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:08:19,758 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:08:19,759 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:08:19,759 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:08:19,759 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:08:19,759 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:08:19,759 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:08:19,759 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:08:19,759 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:08:19,760 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:08:19,763 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:08:19,763 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:08:19,764 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:08:19,764 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:08:19,764 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:08:19,764 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:08:19,764 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:08:19,764 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:08:19,764 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:08:19,764 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:08:19,765 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:08:19,765 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:08:19,765 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:08:19,765 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:08:19,765 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:08:19,765 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:08:19,766 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:08:19,766 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:08:19,766 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:08:19,766 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:08:19,766 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:08:19,766 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:08:19,766 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:08:19,766 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:08:19,767 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:08:19,767 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:08:19,767 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:08:19,767 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:08:19,767 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:08:19,767 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:08:19,767 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:08:19,768 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:08:19,768 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:08:19,768 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:08:19,768 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:08:19,768 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:08:19,768 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:08:19,768 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:08:19,769 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:08:19,769 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:08:19,769 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:08:19,769 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:08:19,769 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:08:19,769 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:08:19,769 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:08:19,769 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:08:19,769 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:08:20,555 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:08:20,556 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:08:38,056 WARN [main] app.Main [Main.java:200] Korisnik nije pravilno odabrao opciju menia!
+2025-11-13 13:09:45,806 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:09:51,032 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:09:51,035 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:09:51,036 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:09:51,036 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:09:51,037 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:09:51,037 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:09:51,037 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:09:51,037 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:09:51,037 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:09:51,037 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:09:51,038 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:09:51,049 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:09:51,050 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:09:51,050 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:09:51,050 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:09:51,050 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:09:51,050 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:09:51,050 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:09:51,051 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:09:51,051 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:09:51,051 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:09:51,051 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:09:51,051 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:09:51,051 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:09:51,051 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:09:51,052 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:09:51,052 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:09:51,052 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:09:51,053 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:09:51,053 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:09:51,053 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:09:51,053 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:09:51,053 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:09:51,054 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:09:51,054 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:09:51,054 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:09:51,054 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:09:51,054 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:09:51,055 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:09:51,055 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:09:51,055 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:09:51,055 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:09:51,055 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:09:51,055 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:09:51,055 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:09:51,055 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:09:51,056 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:09:51,056 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:09:51,056 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:09:51,056 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:09:51,056 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:09:51,056 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:09:51,056 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:09:51,056 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:09:51,057 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:09:51,057 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:09:51,057 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:09:51,057 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:09:51,924 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:09:51,925 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:26:55,110 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:27:01,505 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:27:01,508 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:27:01,509 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:27:01,509 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:27:01,509 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:27:01,510 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:27:01,510 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:27:01,510 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:27:01,510 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:27:01,510 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:27:01,510 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:27:01,512 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:27:01,513 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:27:01,513 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:27:01,513 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:27:01,513 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:27:01,513 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:27:01,514 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:27:01,514 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:27:01,514 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:27:01,514 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:27:01,514 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:27:01,514 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:27:01,514 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:27:01,515 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:27:01,515 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:27:01,515 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:27:01,515 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:27:01,515 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:27:01,515 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:27:01,516 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:27:01,516 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:27:01,516 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:27:01,516 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:27:01,516 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:27:01,516 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:27:01,516 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:27:01,517 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:27:01,517 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:27:01,517 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:27:01,517 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:27:01,517 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:27:01,517 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:27:01,517 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:27:01,518 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:27:01,518 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:27:01,518 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:27:01,518 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:27:01,518 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:27:01,518 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:27:01,518 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:27:01,518 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:27:01,518 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:27:01,519 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:27:01,519 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:27:01,519 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:27:01,519 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:27:01,519 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:27:02,192 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:27:02,192 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:28:19,078 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:28:22,894 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:28:22,897 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:28:22,898 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:28:22,899 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:28:22,899 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:28:22,899 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:28:22,899 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:28:22,899 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:28:22,899 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:28:22,900 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:28:22,900 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:28:22,902 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:28:22,902 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:28:22,902 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:28:22,902 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:28:22,902 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:28:22,903 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:28:22,903 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:28:22,903 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:28:22,903 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:28:22,903 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:28:22,903 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:28:22,903 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:28:22,903 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:28:22,904 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:28:22,904 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:28:22,904 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:28:22,904 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:28:22,904 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:28:22,904 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:28:22,904 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:28:22,905 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:28:22,905 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:28:22,905 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:28:22,905 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:28:22,905 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:28:22,905 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:28:22,905 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:28:22,905 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:28:22,906 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:28:22,906 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:28:22,906 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:28:22,906 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:28:22,906 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:28:22,906 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:28:22,906 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:28:22,906 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:28:22,906 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:28:22,907 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:28:22,907 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:28:22,907 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:28:22,907 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:28:22,907 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:28:22,907 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:28:22,907 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:28:22,907 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:28:22,908 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:28:22,908 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:28:23,550 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:28:23,550 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:28:34,497 WARN [main] app.Main [Main.java:527] Korisnik nije pravilno odabrao opciju kod biranja radnji s dodatnim opcijama!
+2025-11-13 13:30:18,332 INFO [main] app.Main [Main.java:67] Program pokrenut!
+2025-11-13 13:30:22,624 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:30:22,627 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:30:22,628 INFO [main] app.Main [Main.java:170] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:30:22,629 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:30:22,629 INFO [main] app.Main [Main.java:170] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:30:22,629 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:30:22,629 INFO [main] app.Main [Main.java:170] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:30:22,629 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:30:22,629 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:30:22,629 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:30:22,630 INFO [main] app.Main [Main.java:170] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:30:22,632 INFO [main] app.Main [Main.java:176] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:30:22,632 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: KK Zadar
+2025-11-13 13:30:22,632 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Maric
+2025-11-13 13:30:22,633 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:30:22,633 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mate Basic
+2025-11-13 13:30:22,633 INFO [main] app.Main [Main.java:170] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:30:22,633 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:30:22,633 INFO [main] app.Main [Main.java:170] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:30:22,633 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:30:22,634 INFO [main] app.Main [Main.java:170] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:30:22,634 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:30:22,634 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:30:22,634 INFO [main] app.Main [Main.java:176] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:30:22,634 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:30:22,634 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:30:22,635 INFO [main] app.Main [Main.java:170] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:30:22,635 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:30:22,635 INFO [main] app.Main [Main.java:170] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:30:22,635 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:30:22,635 INFO [main] app.Main [Main.java:170] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:30:22,635 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:30:22,635 INFO [main] app.Main [Main.java:170] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:30:22,635 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:30:22,635 INFO [main] app.Main [Main.java:170] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:30:22,636 INFO [main] app.Main [Main.java:176] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:30:22,636 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:30:22,636 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:30:22,636 INFO [main] app.Main [Main.java:170] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:30:22,636 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:30:22,636 INFO [main] app.Main [Main.java:170] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:30:22,636 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:30:22,637 INFO [main] app.Main [Main.java:170] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:30:22,637 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:30:22,637 INFO [main] app.Main [Main.java:170] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:30:22,637 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:30:22,637 INFO [main] app.Main [Main.java:170] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:30:22,637 INFO [main] app.Main [Main.java:176] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:30:22,637 TRACE [main] app.Main [Main.java:100] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:30:22,637 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:30:22,638 INFO [main] app.Main [Main.java:170] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:30:22,638 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:30:22,638 INFO [main] app.Main [Main.java:170] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:30:22,638 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:30:22,638 INFO [main] app.Main [Main.java:170] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:30:22,638 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:30:22,638 INFO [main] app.Main [Main.java:170] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:30:22,638 TRACE [main] app.Main [Main.java:149] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:30:23,711 INFO [main] app.Main [Main.java:170] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:30:23,712 INFO [main] app.Main [Main.java:176] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:33:37,988 INFO [main] app.Main [Main.java:68] Program pokrenut!
+2025-11-13 13:33:42,050 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:33:42,052 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:33:42,054 INFO [main] app.Main [Main.java:171] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:33:42,054 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:33:42,054 INFO [main] app.Main [Main.java:171] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:33:42,054 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:33:42,054 INFO [main] app.Main [Main.java:171] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:33:42,054 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:33:42,055 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:33:42,055 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:33:42,055 INFO [main] app.Main [Main.java:171] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:33:42,057 INFO [main] app.Main [Main.java:177] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:33:42,057 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: KK Zadar
+2025-11-13 13:33:42,057 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Maric
+2025-11-13 13:33:42,057 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:33:42,057 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mate Basic
+2025-11-13 13:33:42,058 INFO [main] app.Main [Main.java:171] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:33:42,058 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:33:42,058 INFO [main] app.Main [Main.java:171] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:33:42,058 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:33:42,058 INFO [main] app.Main [Main.java:171] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:33:42,058 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:33:42,058 INFO [main] app.Main [Main.java:171] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:33:42,058 INFO [main] app.Main [Main.java:177] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:33:42,059 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:33:42,059 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:33:42,059 INFO [main] app.Main [Main.java:171] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:33:42,059 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:33:42,059 INFO [main] app.Main [Main.java:171] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:33:42,059 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:33:42,059 INFO [main] app.Main [Main.java:171] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:33:42,060 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:33:42,060 INFO [main] app.Main [Main.java:171] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:33:42,060 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:33:42,060 INFO [main] app.Main [Main.java:171] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:33:42,060 INFO [main] app.Main [Main.java:177] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:33:42,060 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:33:42,060 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:33:42,061 INFO [main] app.Main [Main.java:171] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:33:42,061 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:33:42,061 INFO [main] app.Main [Main.java:171] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:33:42,061 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:33:42,061 INFO [main] app.Main [Main.java:171] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:33:42,061 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:33:42,061 INFO [main] app.Main [Main.java:171] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:33:42,061 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:33:42,061 INFO [main] app.Main [Main.java:171] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:33:42,062 INFO [main] app.Main [Main.java:177] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:33:42,062 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:33:42,062 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:33:42,062 INFO [main] app.Main [Main.java:171] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:33:42,062 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:33:42,062 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:33:42,062 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:33:42,062 INFO [main] app.Main [Main.java:171] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:33:42,063 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:33:42,063 INFO [main] app.Main [Main.java:171] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:33:42,063 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:33:42,682 INFO [main] app.Main [Main.java:171] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:33:42,682 INFO [main] app.Main [Main.java:177] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:35:12,306 INFO [main] app.Main [Main.java:68] Program pokrenut!
+2025-11-13 13:35:16,721 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:35:16,724 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:35:16,726 INFO [main] app.Main [Main.java:171] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:35:16,727 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:35:16,727 INFO [main] app.Main [Main.java:171] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:35:16,727 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:35:16,727 INFO [main] app.Main [Main.java:171] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:35:16,727 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:35:16,727 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:35:16,727 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:35:16,728 INFO [main] app.Main [Main.java:171] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:35:16,730 INFO [main] app.Main [Main.java:177] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:35:16,730 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: KK Zadar
+2025-11-13 13:35:16,730 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Maric
+2025-11-13 13:35:16,730 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:35:16,731 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mate Basic
+2025-11-13 13:35:16,731 INFO [main] app.Main [Main.java:171] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:35:16,731 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:35:16,731 INFO [main] app.Main [Main.java:171] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:35:16,731 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:35:16,731 INFO [main] app.Main [Main.java:171] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:35:16,731 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:35:16,732 INFO [main] app.Main [Main.java:171] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:35:16,732 INFO [main] app.Main [Main.java:177] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:35:16,732 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:35:16,732 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:35:16,732 INFO [main] app.Main [Main.java:171] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:35:16,732 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:35:16,732 INFO [main] app.Main [Main.java:171] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:35:16,732 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:35:16,733 INFO [main] app.Main [Main.java:171] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:35:16,733 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:35:16,733 INFO [main] app.Main [Main.java:171] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:35:16,733 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:35:16,733 INFO [main] app.Main [Main.java:171] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:35:16,733 INFO [main] app.Main [Main.java:177] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:35:16,733 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:35:16,733 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:35:16,734 INFO [main] app.Main [Main.java:171] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:35:16,734 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:35:16,734 INFO [main] app.Main [Main.java:171] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:35:16,734 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:35:16,734 INFO [main] app.Main [Main.java:171] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:35:16,734 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:35:16,734 INFO [main] app.Main [Main.java:171] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:35:16,734 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:35:16,734 INFO [main] app.Main [Main.java:171] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:35:16,734 INFO [main] app.Main [Main.java:177] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:35:16,735 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:35:16,735 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:35:16,735 INFO [main] app.Main [Main.java:171] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:35:16,735 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:35:16,735 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:35:16,735 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:35:16,735 INFO [main] app.Main [Main.java:171] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:35:16,736 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:35:16,736 INFO [main] app.Main [Main.java:171] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:35:16,736 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:35:17,400 INFO [main] app.Main [Main.java:171] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:35:17,400 INFO [main] app.Main [Main.java:177] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:35:55,789 INFO [main] app.Main [Main.java:68] Program pokrenut!
+2025-11-13 13:36:14,358 INFO [main] app.Main [Main.java:68] Program pokrenut!
+2025-11-13 13:36:24,352 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: KK Medimurje
+2025-11-13 13:36:24,355 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Franjo Kranjcec
+2025-11-13 13:36:24,356 INFO [main] app.Main [Main.java:171] Dodan igrac: Franjo Kranjcec u klub: KK Medimurje
+2025-11-13 13:36:24,356 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mislav Kranjcec
+2025-11-13 13:36:24,356 INFO [main] app.Main [Main.java:171] Dodan igrac: Mislav Kranjcec u klub: KK Medimurje
+2025-11-13 13:36:24,356 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Domagoj Kuzmic
+2025-11-13 13:36:24,357 INFO [main] app.Main [Main.java:171] Dodan igrac: Domagoj Kuzmic u klub: KK Medimurje
+2025-11-13 13:36:24,357 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Glumac
+2025-11-13 13:36:24,357 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Glumac u klub: KK Medimurje
+2025-11-13 13:36:24,357 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Ante Bozic
+2025-11-13 13:36:24,357 INFO [main] app.Main [Main.java:171] Dodan igrac: Ante Bozic u klub: KK Medimurje
+2025-11-13 13:36:24,359 INFO [main] app.Main [Main.java:177] Dodani klub: KK Medimurje, sport: BASKETBALL
+2025-11-13 13:36:24,359 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: KK Zadar
+2025-11-13 13:36:24,360 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Maric
+2025-11-13 13:36:24,360 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Maric u klub: KK Zadar
+2025-11-13 13:36:24,360 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mate Basic
+2025-11-13 13:36:24,360 INFO [main] app.Main [Main.java:171] Dodan igrac: Mate Basic u klub: KK Zadar
+2025-11-13 13:36:24,361 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Karlo Erceg
+2025-11-13 13:36:24,361 INFO [main] app.Main [Main.java:171] Dodan igrac: Karlo Erceg u klub: KK Zadar
+2025-11-13 13:36:24,361 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Nikola Simek
+2025-11-13 13:36:24,361 INFO [main] app.Main [Main.java:171] Dodan igrac: Nikola Simek u klub: KK Zadar
+2025-11-13 13:36:24,361 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Luka Vukovic
+2025-11-13 13:36:24,361 INFO [main] app.Main [Main.java:171] Dodan igrac: Luka Vukovic u klub: KK Zadar
+2025-11-13 13:36:24,361 INFO [main] app.Main [Main.java:177] Dodani klub: KK Zadar, sport: BASKETBALL
+2025-11-13 13:36:24,361 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: NK Dinamo
+2025-11-13 13:36:24,362 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Josip Sutalo
+2025-11-13 13:36:24,362 INFO [main] app.Main [Main.java:171] Dodan igrac: Josip Sutalo u klub: NK Dinamo
+2025-11-13 13:36:24,362 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Martin Baturina
+2025-11-13 13:36:24,362 INFO [main] app.Main [Main.java:171] Dodan igrac: Martin Baturina u klub: NK Dinamo
+2025-11-13 13:36:24,362 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Bruno Petkovic
+2025-11-13 13:36:24,362 INFO [main] app.Main [Main.java:171] Dodan igrac: Bruno Petkovic u klub: NK Dinamo
+2025-11-13 13:36:24,362 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Stefan Ristovski
+2025-11-13 13:36:24,363 INFO [main] app.Main [Main.java:171] Dodan igrac: Stefan Ristovski u klub: NK Dinamo
+2025-11-13 13:36:24,363 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Robert Ljubicic
+2025-11-13 13:36:24,363 INFO [main] app.Main [Main.java:171] Dodan igrac: Robert Ljubicic u klub: NK Dinamo
+2025-11-13 13:36:24,363 INFO [main] app.Main [Main.java:177] Dodani klub: NK Dinamo, sport: FOOTBALL
+2025-11-13 13:36:24,363 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: NK Hajduk
+2025-11-13 13:36:24,363 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Marko Livaja
+2025-11-13 13:36:24,363 INFO [main] app.Main [Main.java:171] Dodan igrac: Marko Livaja u klub: NK Hajduk
+2025-11-13 13:36:24,363 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Filip Krovinovic
+2025-11-13 13:36:24,364 INFO [main] app.Main [Main.java:171] Dodan igrac: Filip Krovinovic u klub: NK Hajduk
+2025-11-13 13:36:24,364 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Jan Mlakar
+2025-11-13 13:36:24,364 INFO [main] app.Main [Main.java:171] Dodan igrac: Jan Mlakar u klub: NK Hajduk
+2025-11-13 13:36:24,364 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Emir Sahiti
+2025-11-13 13:36:24,364 INFO [main] app.Main [Main.java:171] Dodan igrac: Emir Sahiti u klub: NK Hajduk
+2025-11-13 13:36:24,364 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Tino Blaz
+2025-11-13 13:36:24,364 INFO [main] app.Main [Main.java:171] Dodan igrac: Tino Blaz u klub: NK Hajduk
+2025-11-13 13:36:24,364 INFO [main] app.Main [Main.java:177] Dodani klub: NK Hajduk, sport: FOOTBALL
+2025-11-13 13:36:24,364 TRACE [main] app.Main [Main.java:101] Unos kluba pocinje: RK Cakovec
+2025-11-13 13:36:24,365 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Mario Horvat
+2025-11-13 13:36:24,365 INFO [main] app.Main [Main.java:171] Dodan igrac: Mario Horvat u klub: RK Cakovec
+2025-11-13 13:36:24,365 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Petar Novosel
+2025-11-13 13:36:24,365 INFO [main] app.Main [Main.java:171] Dodan igrac: Petar Novosel u klub: RK Cakovec
+2025-11-13 13:36:24,365 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Ivan Kovacic
+2025-11-13 13:36:24,365 INFO [main] app.Main [Main.java:171] Dodan igrac: Ivan Kovacic u klub: RK Cakovec
+2025-11-13 13:36:24,365 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Dario Jankovic
+2025-11-13 13:36:24,366 INFO [main] app.Main [Main.java:171] Dodan igrac: Dario Jankovic u klub: RK Cakovec
+2025-11-13 13:36:24,366 TRACE [main] app.Main [Main.java:150] Unos igraca pocinje: Luka Kralj
+2025-11-13 13:36:26,005 INFO [main] app.Main [Main.java:171] Dodan igrac: Luka Kralj u klub: RK Cakovec
+2025-11-13 13:36:26,005 INFO [main] app.Main [Main.java:177] Dodani klub: RK Cakovec, sport: HANDBALL
+2025-11-13 13:36:32,352 WARN [main] app.Main [Main.java:528] Korisnik nije pravilno odabrao opciju kod biranja radnji s dodatnim opcijama!
+2025-11-13 13:36:47,835 INFO [main] app.Main [Main.java:582] Program zavrsio!
