@@ -4,7 +4,7 @@ package entity;
  * Sadrži osnovne podatke kao što su ime, prezime i dob.
  * Sve konkretne osobe moraju implementirati metode za prikaz statistika i dob.
  */
-public abstract class Person {
+public abstract class Person implements Trainable{
     protected String name;
     protected String surname;
     protected Integer age;

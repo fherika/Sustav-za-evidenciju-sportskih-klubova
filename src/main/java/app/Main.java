@@ -59,6 +59,49 @@ public class Main {
         }
     }
 
+    /**
+     * Izvodi trening nad svim elementima iz zadane kolekcije.
+     *
+     * Metoda prihvaća kolekciju objekata koji su istovremeno tipa {@link Person}
+     * i implementiraju sučelje {@link Trainable}. Za svaki element u kolekciji
+     * poziva se njegova metoda {@code train()}.
+     *
+     * @param <T>      tip elemenata u kolekciji mora nasljeđivati {@link Person}
+     *                 i implementirati {@link Trainable}
+     *
+     */
+    public static <T extends Person & Trainable> void trainAll(Collection<T> people) {
+        for (T p : people) {
+            p.train();
+        }
+    }
+
+    /**
+     * Ispisuje statistiku svih igrača iz klubova koji igraju određeni sport.
+     *
+     * @param clubs Kolekcija klubova (ili njihovih podtipova) koje će se pregledati
+     * @param sport Sport po kojem se filtriraju klubovi
+     */
+    public static void printPlayerStatsBySport(Collection<? extends Club> clubs, Sport sport) {
+        clubs.stream()
+                .filter(c -> c.getSport() == sport)
+                .forEach(c -> {
+                    System.out.println("Club: " + c.getName());
+                    c.players.forEach(p -> System.out.println(" - " + p.showStats()));
+                });
+    }
+
+    /**
+     * Dodaje osobu u kolekciju koja može primiti tip Person ili nadtipove.
+     *
+     * @param people Kolekcija koja može primiti Person ili nadtipove
+     * @param p Osoba koja se dodaje (Player ili Coach)
+     */
+    public static void addToCollection(Collection<? super Person> people, Person p) {
+        people.add(p);
+    }
+
+
 
     private static final Integer NUMBER_OF_CLUBS = 5;
     private static final Integer NUMBER_OF_PLAYERS_IN_EACH_CLUB = 5;
@@ -194,7 +237,9 @@ public class Main {
             System.out.println("10. Show youngest free agent (player)");
             System.out.println("11. Show most experienced coach among free agents");
             System.out.println("12. Extra options for all players in all clubs.");
-            System.out.println("13. Exit");
+            System.out.println("13. Print all players in all clubs for certain sports");
+            System.out.println("14. Print all people in the system");
+            System.out.println("15. Exit");
             System.out.print("Choice: ");
             try {
                 choice = Integer.parseInt(sc.nextLine());
@@ -222,71 +267,58 @@ public class Main {
                 }
                 case 2 -> {
                     System.out.print("Enter player name to search: ");
-                    String searchName = sc.nextLine();
+                    String searchName = sc.nextLine().trim();
                     log.debug("Pretraga igraca po imenu: " + searchName);
-                    boolean found = false;
-                    for (Integer i = 0; i < NUMBER_OF_CLUBS; i++) {
-                        for (Integer j = 0; j < NUMBER_OF_PLAYERS_IN_EACH_CLUB; j++) {
-                            String playerName = clubs.get(i).players.get(j).getName() + " " + clubs.get(i).players.get(j).getSurname();
-                            if (searchName.equals(playerName)) {
-                                System.out.println("Player found: " + playerName + " - " + clubs.get(i).getName() + " - " + clubs.get(i).players.get(j).getPosition());
-                                log.info("Igrac pronaden: " + playerName);
-                                found = true;
-                                break;
+
+                    Optional<Player> searchedPlayer= clubs.stream()
+                            .flatMap(club->club.players.stream())
+                            .filter(player -> (player.getName()+" "+ player.getSurname()).equals(searchName))
+                            .findAny();
+                    searchedPlayer.ifPresentOrElse(
+                            igrac-> System.out.println("Player found: "+ igrac.showStats()),
+                            () -> {
+                                System.out.println("Player not found!");
+                                log.warn("Igrac nije pronaden: " + searchName);
                             }
-                        }
-                    }
-                    if (!found) {
-                        System.out.println("Player not found!");
-                        log.warn("Igrac nije pronaden: " + searchName);
-                    }
+                    );
+
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 3 -> {
                     System.out.print("Enter sport to search: ");
                     String searchSport = sc.nextLine();
-                    Integer numberOfFoundClubs = 0;
 
-                    boolean found = false;
-                    for (Integer i = 0; i < NUMBER_OF_CLUBS; i++) {
-                        if (searchSport.equals(clubs.get(i).getSport())) {
-                            System.out.println("Club " + (++numberOfFoundClubs) + ". " + clubs.get(i).getName());
-                            found = true;
-                        }
+                    Sport sportEnum;
+                    try {
+                        sportEnum = Sport.fromString(searchSport);
+                    } catch (IllegalArgumentException e) {
+                        System.out.println(e);
+                        break;
                     }
-                    if (!found) {
-                        System.out.println("Clubs not found!");
-                    }
+                    List<Club> foundClubs = clubs.stream()
+                            .filter(club -> club.getSport() == sportEnum)
+                            .toList();
+
+                    foundClubs.forEach(System.out::println);
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 4 -> {
-                    Player youngest = null;
-                    String youngestClubName = "";
-                    for (Integer i = 0; i < NUMBER_OF_CLUBS; i++) {
-                        for (Integer j = 0; j < NUMBER_OF_PLAYERS_IN_EACH_CLUB; j++) {
-                            if (youngest == null || clubs.get(i).players.get(j).getAge() < youngest.getAge()) {
-                                youngest = clubs.get(i).players.get(j);
-                                youngestClubName = clubs.get(i).getName();
-                            }
-                        }
-                    }
-                    System.out.println("Youngest player: " + youngest.showStats() + " from " + youngestClubName);
+                    Optional<Player> youngest = clubs.stream()
+                            .flatMap(club-> club.players.stream())
+                            .min(Comparator.comparing(Player::getAge));
+                    youngest.ifPresent(player -> System.out.println("Youngest player: " + player.showStats()));
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 5 -> {
-                    Coach mostExperienced = clubs.getFirst().coach;
-                    String mostExperiencedClubName = "";
-                    for (Integer i = 0; i < NUMBER_OF_CLUBS; i++) {
-                        if (mostExperienced.getExperience() < clubs.get(i).coach.getExperience()) {
-                            mostExperienced = clubs.get(i).coach;
-                            mostExperiencedClubName = clubs.get(i).getName();
-                        }
-                    }
-                    System.out.println(mostExperienced.showStats() + ", curently coaching " + mostExperiencedClubName);
+                    Optional<Coach> mostExperienced=clubs.stream()
+                                    .max(Comparator.comparing(club-> club.coach.getExperience()))
+                            .map(club -> club.coach);
                     System.out.println("Press enter to continue...");
+                    mostExperienced.ifPresent(coach -> System.out.println("Most experienced coach: " + coach.showStats()));
+
                     sc.nextLine();
                 }
                 case 6 -> {
@@ -330,10 +362,10 @@ public class Main {
 
                     switch (clubmenuChoice) {
                         case 1 -> {
-                            clubs.get(clubChoice - 1).coach.train();
-                            for (Integer i = 0; i < clubs.get(clubChoice - 1).players.size(); i++) {
-                                clubs.get(clubChoice - 1).players.get(i).train();
-                            }
+                            List<Person> toTrain = new ArrayList<>();
+                            toTrain.add(clubs.get(clubChoice-1).coach);
+                            toTrain.addAll(clubs.get(clubChoice-1).players);
+                            trainAll(toTrain);
                             System.out.println("\nTraining completed for " + clubs.get(clubChoice - 1).getName());
                         }
                         case 2 -> {
@@ -434,77 +466,47 @@ public class Main {
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
+
                 case 9 -> {
                     System.out.println("=== All free agents ===");
-                    if (freeAgents.size() == 0) {
+                    if (freeAgents.isEmpty()) {
                         System.out.println("No free agents yet!");
                         break;
                     }
-                    for(Person p: freeAgents) {
-                        if(p instanceof Player) {
-                            System.out.println("Player: "+ p.showStats());
-                        } else if(p instanceof Coach) {
-                            System.out.println("Coach: "+ p.showStats());
+                    freeAgents.forEach(p -> {
+                        if (p instanceof Player) {
+                            System.out.println("Player: " + p.showStats());
+                        } else if (p instanceof Coach) {
+                            System.out.println("Coach: " + p.showStats());
                         }
-                    }
+                    });
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 10 -> {
-                    Person youngest = null;
-                    Integer freeAgentPlayerCount = 0;
-                    for (int i = 0; i < freeAgents.size(); i++) {
-                        if (freeAgents.get(i) instanceof Player) {
-                            freeAgentPlayerCount++;
-                        }
-                    }
-                    if (freeAgentPlayerCount == 0) {
-                        System.out.println("No free agents yet!");
-                        break;
-                    }
-                    for (int i = 0; i < freeAgents.size(); i++) {
-                        if (freeAgents.get(i) instanceof Player) {
-                            youngest = freeAgents.get(i);
-                            break;
-                        }
-                    }
+                    Optional<Player> youngestFreeAgent= freeAgents.stream()
+                            .filter(p-> p instanceof Player)
+                            .map(p -> (Player) p)
+                            .min(Comparator.comparing(Player::getAge));
 
-                    for (int i = 0; i < freeAgents.size(); i++) {
-                        if (freeAgents.get(i) instanceof Player) {
-                            if (freeAgents.get(i).getAge() < youngest.getAge()) {
-                                youngest = freeAgents.get(i);
-                            }
-                        }
-                    }
+                    youngestFreeAgent.ifPresentOrElse(
+                            p->System.out.println("Youngest free agent: "+ p.showStats()),
+                            ()->System.out.println("No free agent players yet!")
+                    );
 
-                    System.out.println("Youngest free agent: " + youngest.showStats());
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 11 -> {
-                    Integer freeAgentCoachCount = 0;
-                    for (int i = 0; i < freeAgents.size(); i++) {
-                        if (freeAgents.get(i) instanceof Coach) {
-                            freeAgentCoachCount++;
-                        }
-                    }
-                    if (freeAgentCoachCount == 0) {
-                        System.out.println("No coaches free agents yet!");
-                        System.out.println("Press enter to continue...");
-                        sc.nextLine();
-                        break;
-                    }
+                    Optional<Coach> mostExCoach= freeAgents.stream()
+                            .filter(p-> p instanceof Coach)
+                            .map(c-> (Coach) c)
+                            .max(Comparator.comparing(Coach::getExperience));
 
-                    Coach mostExperiencedCoach = new Coach("", "", 0, 0);
-                    for (int i = 0; i < freeAgents.size(); i++) {
-                        if (freeAgents.get(i) instanceof Coach) {
-                            if (((Coach) freeAgents.get(i)).getExperience() > mostExperiencedCoach.getExperience()) {
-                                mostExperiencedCoach = (Coach) freeAgents.get(i);
-                            }
-                        }
-                    }
-
-                    System.out.println("Most experienced free agent coach: " + mostExperiencedCoach.showStats());
+                    mostExCoach.ifPresentOrElse(
+                            c->System.out.println("Most experienced free agent coach: "+ c.showStats()),
+                            ()->System.out.println("No free agent coaches yet!")
+                    );
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
@@ -576,10 +578,40 @@ public class Main {
                         }
                     }
                 }
-                case 13 -> System.out.println("Exiting...");
+                case 13 -> {
+                    System.out.print("Enter sport to display player stats: ");
+                    String inputSport = sc.nextLine();
+                    try {
+                        Sport sportEnum = Sport.fromString(inputSport);
+                        printPlayerStatsBySport(clubs, sportEnum);
+                    } catch (IllegalArgumentException e) {
+                        System.out.println("Invalid sport!");
+                    }
+                    System.out.println("Press enter to continue...");
+                    sc.nextLine();
+                }
+                case 14-> {
+                    List<Object> allPeople= new ArrayList<>();
+
+                    clubs.stream().forEach(club->{
+                                club.players.forEach(player->addToCollection(allPeople,player));
+                                addToCollection(allPeople, club.coach);
+                            });
+                    freeAgents.stream().forEach(person->addToCollection(allPeople,person));
+
+                    System.out.println("=== All people in the system ===");
+                    allPeople.stream()
+                            .filter(o->o instanceof Person)
+                            .map(o->(Person) o)
+                            .forEach(p->System.out.println(" - " + p.showStats()));
+
+                    System.out.println("Press enter to continue...");
+                    sc.nextLine();
+                }
+                case 15 -> System.out.println("Exiting...");
                 default -> System.out.println("Invalid choice.");
             }
-        } while (choice != 13);
+        } while (choice != 15);
         log.info("Program zavrsio!");
     }
 }

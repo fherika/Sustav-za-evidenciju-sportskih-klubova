@@ -3,7 +3,6 @@ package entity;
 public enum Sport {
     FOOTBALL("Football"),
     BASKETBALL("Basketball"),
-    VOLLEYBALL("Volleyball"),
     HANDBALL("Handball");
 
     private final String displayName;
