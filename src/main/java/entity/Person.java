@@ -1,13 +1,18 @@
 package entity;
+
+import java.io.Serializable;
+
 /**
  * Predstavlja osobu.
  * Sadrži osnovne podatke kao što su ime, prezime i dob.
  * Sve konkretne osobe moraju implementirati metode za prikaz statistika i dob.
  */
-public abstract class Person implements Trainable{
+public abstract class Person implements Trainable, Serializable {
     protected String name;
     protected String surname;
     protected Integer age;
+
+    public Person(){}
     /**
      * Konstruktor za kreiranje osobe.
      *
@@ -15,6 +20,7 @@ public abstract class Person implements Trainable{
      * @param surname Prezime osobe
      * @param age Dob osobe
      */
+
     public Person(String name, String surname, Integer age) {
         this.name = name;
         this.surname = surname;

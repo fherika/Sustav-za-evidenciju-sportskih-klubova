@@ -1,9 +1,19 @@
 package app;
 
 import entity.*;
+import jakarta.json.bind.Jsonb;
+import jakarta.json.bind.JsonbBuilder;
+import jakarta.json.bind.JsonbException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import util.JsonUtil;
+import util.LogList;
+import util.XmlLog;
 
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -101,7 +111,47 @@ public class Main {
         people.add(p);
     }
 
+    public static void saveFreeAgents(List<Person> freeAgents, String path) {
+        Jsonb jsonb = JsonbBuilder.create();
+        try {
+            String json = jsonb.toJson(freeAgents);
+            try (FileWriter fw = new FileWriter(path)) {
+                fw.write(json);
+            }
+        } catch (IOException e) {
+            System.err.println("Greška pri spremanju free agenata: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 
+    public static void backupData(List<Club> clubs, List<Person> freeAgents, String path) {
+        try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(path))) {
+            out.writeObject(clubs);
+            out.writeObject(freeAgents);
+            System.out.println("Backup saved in " + path);
+        } catch (IOException e) {
+            System.err.println("Greška pri spremanju backup datoteke: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    public static void restoreData(List<Club> clubs, List<Person> freeAgents,String path) {
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(path))) {
+            List<Club> loadedClubs = (List<Club>) ois.readObject();
+            List<Person> loadedFreeAgents = (List<Person>) ois.readObject();
+
+            clubs.clear();
+            clubs.addAll(loadedClubs);
+
+            freeAgents.clear();
+            freeAgents.addAll(loadedFreeAgents);
+
+            System.out.println("Backup loaded!");
+        } catch (IOException | ClassNotFoundException e) {
+            System.err.println("Greška pri učitavanju backup datoteke: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 
     private static final Integer NUMBER_OF_CLUBS = 5;
     private static final Integer NUMBER_OF_PLAYERS_IN_EACH_CLUB = 5;
@@ -110,7 +160,7 @@ public class Main {
 
         log.info("Program pokrenut!");
         Scanner sc = new Scanner(System.in);
-
+        LogList logList = XmlLog.loadLogs();
         /*AwardRecord[] records = new AwardRecord[500];
         Integer awardRecordCount = 0;*/
         List<AwardRecord> records = new ArrayList<>();
@@ -118,107 +168,46 @@ public class Main {
         /*Person[] freeAgents = new Person[100];
         Integer freeAgentCount = 0;*/
         List<Person> freeAgents = new ArrayList<>();
+        try{
+            String json = Files.readString(Paths.get("doc/freeagents.json"));
+            Jsonb jsonb = JsonbBuilder.create();
+
+            List<Map<String,Object>> tempList = jsonb.fromJson(json, new ArrayList<Map<String,Object>>(){}.getClass().getGenericSuperclass());
+
+            for (Map<String,Object> map : tempList) {
+                String type = (String) map.get("type");
+                if ("Player".equals(type)) {
+                    freeAgents.add(jsonb.fromJson(jsonb.toJson(map), Player.class));
+                } else if ("Coach".equals(type)) {
+                    freeAgents.add(jsonb.fromJson(jsonb.toJson(map), Coach.class));
+                }
+            }
+
+        }catch (IOException e) {
+            System.err.println("Greška pri čitanju datoteke: " + e.getMessage());
+            e.printStackTrace();
+        }catch (JsonbException e) {
+            System.err.println("Greška pri deserijalizaciji JSON-a: " + e.getMessage());
+            e.printStackTrace();
+        }
+        List<Club> clubs = null;
+        try {
+            Jsonb jsonb = JsonbBuilder.create();
+
+            String json = Files.readString(Paths.get("doc/clubs.json"));
+            clubs = jsonb.fromJson(json, new ArrayList<Club>(){}.getClass().getGenericSuperclass());
 
 
-        //Club[] clubs = new Club[NUMBER_OF_CLUBS];
-        List<Club> clubs = new ArrayList<>();
+        }catch (IOException e) {
+            System.err.println("Greška pri čitanju datoteke: " + e.getMessage());
+            e.printStackTrace();
+        }catch (JsonbException e) {
+            System.err.println("Greška pri deserijalizaciji JSON-a: " + e.getMessage());
+            e.printStackTrace();
+        }
         Set<String> clubNames = new HashSet<>();
         Map<String, Club> clubsMap = new HashMap<>();
 
-        for (Integer i = 0; i < NUMBER_OF_CLUBS; i++) {
-            String clubName = "";
-            Sport clubSport;
-            Integer clubYearOfFoundation;
-            String clubCoachName="";
-            String clubCoachSurname="";
-            Integer clubCoachYearsOfExpirience;
-            Integer clubCoachAge;
-            try {
-                clubName = readNonEmptyString(sc, "Enter club name: ");
-                //checkDuplicateClub(clubs, clubName, i);
-                if (!clubNames.add(clubName)) {
-                    System.out.println("Club with this name already exists!");
-                    i--;
-                    continue;
-                }
-                log.trace("Unos kluba pocinje: " + clubName);
-                System.out.print("Enter club sport: ");
-                String inputSport = sc.nextLine();
-                try {
-                    clubSport = Sport.fromString(inputSport);
-                } catch (IllegalArgumentException e) {
-                    System.out.println("Invalid sport! Try again.");
-                    i--;
-                    continue;
-                }
-
-                System.out.print("Enter clubs year of foundation: ");
-                clubYearOfFoundation = sc.nextInt();
-                sc.nextLine();
-                clubCoachName = readNonEmptyString(sc, "Enter clubs coaches name: ");
-                clubCoachSurname = readNonEmptyString(sc, "Enter clubs coaches surname: ");
-                System.out.print("Enter clubs coaches years of expirience: ");
-                clubCoachYearsOfExpirience = sc.nextInt();
-                sc.nextLine();
-                System.out.print("Enter clubs coaches age: ");
-                clubCoachAge = sc.nextInt();
-                sc.nextLine();
-            }
-            catch (InvalidInputException e) {
-                log.warn("Problem pri unosu: " + e.getMessage());
-                System.out.println(e.getMessage());
-                i--;
-                continue;
-            }
-            catch (InputMismatchException e) {
-                log.warn("Korisnik nije unio broj, a trebao je!", e);
-                System.out.println("Invalid input, must be a number!");
-                i--;
-                clubNames.remove(clubName);
-                sc.nextLine();
-                continue;
-            }
-            Coach clubCoach = new Coach(clubCoachName, clubCoachSurname, clubCoachYearsOfExpirience, clubCoachAge);
-
-            //Player[] clubPlayers = new Player[NUMBER_OF_PLAYERS_IN_EACH_CLUB];
-            List<Player> clubPlayers= new ArrayList<>();
-            for (Integer j = 0; j < NUMBER_OF_PLAYERS_IN_EACH_CLUB; j++) {
-                String playerName="";
-                String playerSurname="";
-                Integer playerAge;
-                String playerPosition="";
-                try{
-                    playerName = readNonEmptyString(sc, "Enter player name: ");
-                    playerSurname = readNonEmptyString(sc, "Enter player surname: ");
-                    log.trace("Unos igraca pocinje: " + playerName + " " + playerSurname);
-                    System.out.print("Enter player age: ");
-                    playerAge = sc.nextInt();
-                    sc.nextLine();
-                    playerPosition = readNonEmptyString(sc, "Enter player position: ");
-                }
-                catch (InvalidInputException e) {
-                    log.warn("Problem pri unosu: " + e.getMessage());
-                    System.out.println(e.getMessage());
-                    j--;
-                    continue;
-                }
-                catch (InputMismatchException e) {
-                    log.warn("Korisnik nije unio broj, a trebao je!");
-                    System.out.println("Invalid input, must be a number!");
-                    j--;
-                    sc.nextLine();
-                    continue;
-                }
-                Player newPlayer = new Player.PlayerBuilder().setName(playerName).setSurname(playerSurname).setAge(playerAge).setPosition(playerPosition).build();
-                clubPlayers.add(newPlayer);
-                log.info("Dodan igrac: " + playerName + " " + playerSurname + " u klub: " + clubName);
-            }
-
-            Club newClub = new Club(clubName, clubSport, clubYearOfFoundation, clubCoach, clubPlayers);
-            clubs.add(newClub);
-            clubsMap.put(newClub.getName(), newClub);
-            log.info("Dodani klub: " + clubName + ", sport: " + clubSport);
-        }
         clubs.forEach(System.out::println);
         System.out.println("Press enter to continue...");
         sc.nextLine();
@@ -239,7 +228,10 @@ public class Main {
             System.out.println("12. Extra options for all players in all clubs.");
             System.out.println("13. Print all players in all clubs for certain sports");
             System.out.println("14. Print all people in the system");
-            System.out.println("15. Exit");
+            System.out.println("15. Make a backup");
+            System.out.println("16. Reload from backup");
+            System.out.println("17. Show XML log");
+            System.out.println("18. Exit");
             System.out.print("Choice: ");
             try {
                 choice = Integer.parseInt(sc.nextLine());
@@ -253,10 +245,17 @@ public class Main {
                     System.out.print("Enter club name to search: ");
                     String searchName = sc.nextLine();
                     log.debug("Pretraga kluba po imenu: " + searchName);
-                    Club c = clubsMap.get(searchName);
-                    if (c != null) {
-                        System.out.println("Club found: " + c.getName());
-                        log.info("Klub pronaden: " + c.getName());
+
+                    Club foundClub = clubs.stream()
+                            .filter(c -> c.getName().equalsIgnoreCase(searchName))
+                            .findFirst()
+                            .orElse(null);
+
+
+                    if (foundClub != null) {
+                        System.out.println("Club found: ");
+                        System.out.println(foundClub);
+                        log.info("Klub pronaden: " + foundClub.getName());
                     } else {
                         System.out.println("Club not found!");
                         log.warn("Klub nije pronaden: " + searchName);
@@ -264,6 +263,7 @@ public class Main {
 
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
+                    XmlLog.addLog("Club searched: " + searchName, logList);
                 }
                 case 2 -> {
                     System.out.print("Enter player name to search: ");
@@ -284,6 +284,7 @@ public class Main {
 
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
+                    XmlLog.addLog("Player searched: " + searchName, logList);
                 }
                 case 3 -> {
                     System.out.print("Enter sport to search: ");
@@ -303,6 +304,7 @@ public class Main {
                     foundClubs.forEach(System.out::println);
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
+                    XmlLog.addLog("Sport searched: " + searchSport, logList);
                 }
                 case 4 -> {
                     Optional<Player> youngest = clubs.stream()
@@ -311,15 +313,16 @@ public class Main {
                     youngest.ifPresent(player -> System.out.println("Youngest player: " + player.showStats()));
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
+                    XmlLog.addLog("Searched for the youngest player", logList);
                 }
                 case 5 -> {
                     Optional<Coach> mostExperienced=clubs.stream()
                                     .max(Comparator.comparing(club-> club.coach.getExperience()))
                             .map(club -> club.coach);
-                    System.out.println("Press enter to continue...");
                     mostExperienced.ifPresent(coach -> System.out.println("Most experienced coach: " + coach.showStats()));
-
+                    System.out.println("Press enter to continue...");
                     sc.nextLine();
+                    XmlLog.addLog("Searched for the most experienced coach", logList);
                 }
                 case 6 -> {
                     Integer clubChoice;
@@ -407,7 +410,7 @@ public class Main {
 
                             if (award != null) {
                                 clubs.get(clubChoice - 1).addAward(award);
-                                String today = java.time.LocalDate.now().toString();
+                                String today = LocalDate.now().toString();
                                 records.add(new AwardRecord(clubs.get(clubChoice - 1).getName(), award.displayAward(), today));
                             }
                         }
@@ -463,6 +466,7 @@ public class Main {
                         log.error("Puno je polje za popunjavanje Free Agent-a!", e);
                         System.out.println(e.getMessage());
                     }*/
+                    saveFreeAgents(freeAgents, "doc/freeagents.json");
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
@@ -608,10 +612,26 @@ public class Main {
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
-                case 15 -> System.out.println("Exiting...");
+                case 15 -> {
+                    backupData(clubs, freeAgents, "doc/backup.bin");
+                    System.out.println("Press enter to continue...");
+                    sc.nextLine();
+                }
+                case 16 -> {
+                    restoreData(clubs, freeAgents,"doc/backup.bin");
+                    System.out.println("Press enter to continue...");
+                    sc.nextLine();
+                }
+                case 17 -> {
+                    System.out.println("=== XML Log ===");
+                    XmlLog.printLogsWithoutTags(logList);
+                    System.out.println("Press enter to continue...");
+                    sc.nextLine();
+                }
+                case 18 -> System.out.println("Exiting...");
                 default -> System.out.println("Invalid choice.");
             }
-        } while (choice != 15);
+        } while (choice != 18);
         log.info("Program zavrsio!");
     }
 }

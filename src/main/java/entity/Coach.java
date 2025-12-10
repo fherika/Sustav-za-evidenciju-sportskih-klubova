@@ -1,11 +1,15 @@
 package entity;
 
+import java.io.Serializable;
+
 /**
  * Predstavlja trenera.
  */
-public class Coach extends Person implements Trainable{
+public class Coach extends Person implements Trainable, Serializable {
+    private String type = "Coach";
     private Integer experience;
 
+    public Coach(){}
     /**
      * Konstruktor za stvaranje novog trenera.
      *
@@ -46,6 +50,9 @@ public class Coach extends Person implements Trainable{
     public Integer getAge(){
         return age;
     }
+    public void setAge(Integer age){
+        this.age = age;
+    }
 
     /**
      * Dohvaća ime trenera.
@@ -72,5 +79,17 @@ public class Coach extends Person implements Trainable{
      */
     public Integer getExperience() {
         return experience;
+    }
+    public void setExperience(Integer experience) {
+        this.experience = experience;
+    }
+    public String getSurname() {
+        return surname;
+    }
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+    public String getType() {
+        return type;
     }
 }

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "KK Medimurje",
+    "sport": "BASKETBALL",
+    "yearOfFoundation": 1972,
+    "coach": {
+      "name": "Stjepan",
+      "surname": "Novak",
+      "experience": 15,
+      "age": 35
+    },
+    "players": [
+      { "name": "Franjo", "surname": "Kranjcec", "age": 19, "position": "PG" },
+      { "name": "Mislav", "surname": "Kranjcec", "age": 25, "position": "SF" },
+      { "name": "Domagoj", "surname": "Kuzmic", "age": 27, "position": "PG" },
+      { "name": "Petar", "surname": "Glumac", "age": 28, "position": "PF" },
+      { "name": "Ante", "surname": "Bozic", "age": 35, "position": "C" }
+    ]
+  },
+  {
+    "name": "KK Zadar",
+    "sport": "BASKETBALL",
+    "yearOfFoundation": 1945,
+    "coach": {
+      "name": "Ante",
+      "surname": "Gabric",
+      "experience": 20,
+      "age": 55
+    },
+    "players": [
+      { "name": "Petar", "surname": "Maric", "age": 24, "position": "PG" },
+      { "name": "Mate", "surname": "Basic", "age": 26, "position": "SG" },
+      { "name": "Karlo", "surname": "Erceg", "age": 16, "position": "SF" },
+      { "name": "Nikola", "surname": "Simek", "age": 28, "position": "PF" },
+      { "name": "Luka", "surname": "Vukovic", "age": 25, "position": "C" }
+    ]
+  },
+  {
+    "name": "NK Dinamo",
+    "sport": "FOOTBALL",
+    "yearOfFoundation": 1945,
+    "coach": {
+      "name": "Zoran",
+      "surname": "Mamic",
+      "experience": 25,
+      "age": 59
+    },
+    "players": [
+      { "name": "Josip", "surname": "Sutalo", "age": 24, "position": "CB" },
+      { "name": "Martin", "surname": "Baturina", "age": 21, "position": "CM" },
+      { "name": "Bruno", "surname": "Petkovic", "age": 29, "position": "ST" },
+      { "name": "Stefan", "surname": "Ristovski", "age": 32, "position": "RB" },
+      { "name": "Robert", "surname": "Ljubicic", "age": 25, "position": "LB" }
+    ]
+  },
+  {
+    "name": "NK Hajduk",
+    "sport": "FOOTBALL",
+    "yearOfFoundation": 1911,
+    "coach": {
+      "name": "Ivan",
+      "surname": "Leko",
+      "experience": 22,
+      "age": 48
+    },
+    "players": [
+      { "name": "Marko", "surname": "Livaja", "age": 30, "position": "ST" },
+      { "name": "Filip", "surname": "Krovinovic", "age": 29, "position": "CM" },
+      { "name": "Jan", "surname": "Mlakar", "age": 26, "position": "RW" },
+      { "name": "Emir", "surname": "Sahiti", "age": 25, "position": "LW" },
+      { "name": "Tino", "surname": "Blaz", "age": 23, "position": "CB" }
+    ]
+  },
+  {
+    "name": "RK Cakovec",
+    "sport": "HANDBALL",
+    "yearOfFoundation": 1960,
+    "coach": {
+      "name": "Tomislav",
+      "surname": "Radic",
+      "experience": 18,
+      "age": 40
+    },
+    "players": [
+      { "name": "Mario", "surname": "Horvat", "age": 27, "position": "GK" },
+      { "name": "Petar", "surname": "Novosel", "age": 24, "position": "LB" },
+      { "name": "Ivan", "surname": "Kovacic", "age": 26, "position": "CB" },
+      { "name": "Dario", "surname": "Jankovic", "age": 25, "position": "RB" },
+      { "name": "Luka", "surname": "Kralj", "age": 22, "position": "LW" }
+    ]
+  }
+]

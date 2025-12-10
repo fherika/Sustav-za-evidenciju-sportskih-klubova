@@ -1,11 +1,16 @@
 package entity;
+
+import java.io.Serializable;
+
 /**
  * Predstavlja igrača.
  * Nasljeđuje apstraktnu klasu Person i implementira sučelje Trainable.
  * Koristi Builder pattern za kreiranje objekata.
  */
-public class Player extends Person implements Trainable{
+public class Player extends Person implements Trainable, Serializable {
+    private String type = "Player";
     private String position;
+    public Player(){}
     /**
      * Privatni konstruktor koji se koristi u Builderu.
      *
@@ -14,6 +19,9 @@ public class Player extends Person implements Trainable{
     private Player(PlayerBuilder builder) {
         super(builder.name, builder.surname, builder.age);
         this.position = builder.position;
+    }
+    public String getType() {
+        return type;
     }
     /**
      * Vraća statistike igrača u obliku stringa.
@@ -88,6 +96,7 @@ public class Player extends Person implements Trainable{
             return this;
         }
 
+
         /**
          * Kreira i vraća Player objekt koristeći podatke iz Buildera.
          *
@@ -96,5 +105,6 @@ public class Player extends Person implements Trainable{
         public Player build() {
             return new Player(this);
         }
+
     }
 }

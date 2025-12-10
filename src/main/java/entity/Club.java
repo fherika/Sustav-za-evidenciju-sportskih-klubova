@@ -1,5 +1,6 @@
 package entity;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -7,13 +8,15 @@ import java.util.List;
 /**
  * Predstavlja sportski klub sa svim relevantnim informacijama.
  */
-public class Club {
+public class Club implements Serializable {
     private String name;
     private Sport sport;
     public Integer yearOfFoundation;
     public Coach coach;
     public List<Player> players;
-    private List<Award> awards;
+    private List<Award> awards=new ArrayList<>();
+
+    public Club(){}
 
     /**
      * Konstruktor za stvaranje novog kluba.
@@ -31,7 +34,7 @@ public class Club {
         this.coach = coach;
         this.players = new ArrayList<>(players);
         this.players.sort(Comparator.comparingInt(Player::getAge));
-        this.awards = new ArrayList<>();
+        //this.awards = new ArrayList<>();
     }
     /**
      * Dodaje nagradu klubu.
