@@ -12,7 +12,7 @@ public class LogEntry implements Serializable {
     private String timestamp;
     private String action;
 
-    public LogEntry() {} // JAXB needs no-arg constructor
+    public LogEntry() {}
 
     public LogEntry(String action) {
         this.timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
@@ -24,4 +24,7 @@ public class LogEntry implements Serializable {
 
     @XmlElement
     public String getAction() { return action; }
+
+    public void setTimestamp(String timestamp) { this.timestamp = timestamp; }
+    public void setAction(String action) { this.action = action; }
 }

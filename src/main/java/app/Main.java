@@ -370,6 +370,7 @@ public class Main {
                             toTrain.addAll(clubs.get(clubChoice-1).players);
                             trainAll(toTrain);
                             System.out.println("\nTraining completed for " + clubs.get(clubChoice - 1).getName());
+                            XmlLog.addLog("Started and completed training for  " + clubs.get(clubChoice - 1).getName(), logList);
                         }
                         case 2 -> {
                             System.out.println("Choose award type:");
@@ -413,9 +414,11 @@ public class Main {
                                 String today = LocalDate.now().toString();
                                 records.add(new AwardRecord(clubs.get(clubChoice - 1).getName(), award.displayAward(), today));
                             }
+                            XmlLog.addLog("Added an award for " + clubs.get(clubChoice - 1).getName(), logList);
                         }
                         case 3 -> {
                             clubs.get(clubChoice - 1).listAwards();
+                            XmlLog.addLog("Viewed all awards for " + clubs.get(clubChoice - 1).getName(), logList);
                         }
                     }
                     System.out.println("Press enter to continue...");
@@ -428,6 +431,7 @@ public class Main {
                     }
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
+                    XmlLog.addLog("Viewed award record for all the clubs in the system", logList);
                 }
                 case 8 -> {
                         //checkFreeAgentLimit(freeAgents, freeAgentCount); -> nije vise potrebna(koriste se liste)
@@ -466,6 +470,7 @@ public class Main {
                         log.error("Puno je polje za popunjavanje Free Agent-a!", e);
                         System.out.println(e.getMessage());
                     }*/
+                    XmlLog.addLog("Added a free agent", logList);
                     saveFreeAgents(freeAgents, "doc/freeagents.json");
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
@@ -484,6 +489,7 @@ public class Main {
                             System.out.println("Coach: " + p.showStats());
                         }
                     });
+                    XmlLog.addLog("Viewed all the free agents", logList);
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
@@ -497,7 +503,7 @@ public class Main {
                             p->System.out.println("Youngest free agent: "+ p.showStats()),
                             ()->System.out.println("No free agent players yet!")
                     );
-
+                    XmlLog.addLog("Searched for the youngest player among free agents", logList);
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
@@ -511,6 +517,7 @@ public class Main {
                             c->System.out.println("Most experienced free agent coach: "+ c.showStats()),
                             ()->System.out.println("No free agent coaches yet!")
                     );
+                    XmlLog.addLog("Searched for the most experienced coach among free agents", logList);
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
@@ -545,6 +552,7 @@ public class Main {
                                         System.out.println(" - " + p.showStats());
                                     }
                                 }
+                                XmlLog.addLog("Viewed all the players in the system in order added", logList);
                             }
 
                             case 2 -> { // Stream gatherer
@@ -554,6 +562,7 @@ public class Main {
                                         .filter(p -> p.getAge() < 25)
                                         .toList();
                                 youngPlayers.forEach(p -> System.out.println(" - " + p.showStats()));
+                                XmlLog.addLog("Viewed all players younger then 25 in the system", logList);
                             }
 
                             case 3 -> {// PartitioningBy
@@ -565,6 +574,7 @@ public class Main {
                                 partitioned.get(true).forEach(p -> System.out.println(" - " + p.showStats()));
                                 System.out.println("25 or older:");
                                 partitioned.get(false).forEach(p -> System.out.println(" - " + p.showStats()));
+                                XmlLog.addLog("Partitioned players into younger or older then 25 years old", logList);
                             }
                             //dada test za git
                             case 4 -> { // GroupingBy
@@ -576,6 +586,7 @@ public class Main {
                                     System.out.println("Position: " + position);
                                     list.forEach(p -> System.out.println(" - " + p.showStats()));
                                 });
+                                XmlLog.addLog("Viewed players by the position", logList);
                             }
                             case 5 -> extraOptions = false;
                             default -> System.out.println("Invalid choice.");
@@ -593,6 +604,7 @@ public class Main {
                     }
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
+                    XmlLog.addLog("Viewed all players in the system that are "+ inputSport +" players", logList);
                 }
                 case 14-> {
                     List<Object> allPeople= new ArrayList<>();
@@ -609,26 +621,33 @@ public class Main {
                             .map(o->(Person) o)
                             .forEach(p->System.out.println(" - " + p.showStats()));
 
+                    XmlLog.addLog("Viewed all the people in the system", logList);
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 15 -> {
+                    XmlLog.addLog("Made a backup", logList);
                     backupData(clubs, freeAgents, "doc/backup.bin");
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 16 -> {
+                    XmlLog.addLog("Reloaded from the backup", logList);
                     restoreData(clubs, freeAgents,"doc/backup.bin");
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
                 case 17 -> {
+                    XmlLog.addLog("Viewed XML log", logList);
                     System.out.println("=== XML Log ===");
                     XmlLog.printLogsWithoutTags(logList);
                     System.out.println("Press enter to continue...");
                     sc.nextLine();
                 }
-                case 18 -> System.out.println("Exiting...");
+                case 18 -> {
+                    System.out.println("Exiting...");
+                    XmlLog.addLog("Exited the aplication", logList);
+                }
                 default -> System.out.println("Invalid choice.");
             }
         } while (choice != 18);

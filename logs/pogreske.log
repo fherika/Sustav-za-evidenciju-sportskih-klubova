@@ -2874,3 +2874,20 @@ java.util.InputMismatchException: null
 2025-12-10 20:51:43,973 DEBUG [main] app.Main [Main.java:247] Pretraga kluba po imenu: treci
 2025-12-10 20:51:43,974 WARN [main] app.Main [Main.java:261] Klub nije pronaden: treci
 2025-12-10 20:52:05,729 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-10 21:02:44,541 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 14:35:21,101 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 14:40:01,250 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 14:41:30,754 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 14:41:58,072 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 14:42:09,730 DEBUG [main] app.Main [Main.java:247] Pretraga kluba po imenu: KK Medimurje
+2025-12-11 14:42:09,731 INFO [main] app.Main [Main.java:258] Klub pronaden: KK Medimurje
+2025-12-11 14:42:25,245 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 14:53:55,401 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 14:54:05,023 DEBUG [main] app.Main [Main.java:247] Pretraga kluba po imenu: KK Jazine
+2025-12-11 14:54:05,024 WARN [main] app.Main [Main.java:261] Klub nije pronaden: KK Jazine
+2025-12-11 14:54:11,033 DEBUG [main] app.Main [Main.java:271] Pretraga igraca po imenu: Luka Kralj
+2025-12-11 14:58:11,271 INFO [main] app.Main [Main.java:449] Dodavanje free agenta: Steeve Ho You Fat
+2025-12-11 14:59:57,091 INFO [main] app.Main [Main.java:161] Program pokrenut!
+2025-12-11 15:01:24,859 WARN [main] app.Main [Main.java:239] Korisnik nije pravilno odabrao opciju menia!
+2025-12-11 15:01:48,404 INFO [main] app.Main [Main.java:654] Program zavrsio!
+2025-12-11 15:01:51,028 INFO [main] app.Main [Main.java:161] Program pokrenut!
